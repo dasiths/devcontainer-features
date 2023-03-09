@@ -1,7 +1,7 @@
 
-# Hello, World! (hello)
+# Grype https://github.com/anchore/grype
 
-A hello world feature
+Feature to install Grype. A vulnerability scanner for container images and filesystems. Works with Syft, the powerful SBOM (software bill of materials) tool for container images and filesystems.
 
 ## Example Usage
 
