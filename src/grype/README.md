@@ -1,15 +1,13 @@
 
-# Grype https://github.com/anchore/grype
+# Grype (grype)
 
-Feature to install Grype. A vulnerability scanner for container images and filesystems. Works with Syft, the powerful SBOM (software bill of materials) tool for container images and filesystems.
+Grype vulnerability scanner feature
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/dasiths/devcontainer-features/grype:1": {
-        "version": "latest"
-    }
+    "ghcr.io/dasiths/devcontainer-features/grype:1": {}
 }
 ```
 
@@ -17,8 +15,11 @@ Feature to install Grype. A vulnerability scanner for container images and files
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | version to install | string | latest |
-| destination_dir | dir to install on | string | /usr/local/bin |
+| version | release version | string | latest |
+| destination_dir | install directory | string | /usr/local/bin |
+
 
 
 ---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/dasiths/devcontainer-features/blob/main/src/grype/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
