@@ -1,19 +1,20 @@
 {
-    "name": "Hello, World!",
-    "id": "hello",
-    "version": "1.0.2",
-    "description": "A hello world feature",
+    "name": "Grype",
+    "id": "grype",
+    "version": "1.0.0",
+    "description": "Grype vulnerability scanner feature",
     "options": {
-        "greeting": {
+        "version": {
             "type": "string",
-            "proposals": [
-                "hey",
-                "hello",
-                "hi",
-                "howdy"
-            ],
-            "default": "hey",
-            "description": "Select a pre-made greeting, or enter your own"
+            "proposals": ["latest"],
+            "default": "latest",
+            "description": "release version"
+        },
+        "destination_dir": {
+            "type": "string",
+            "proposals": ["/usr/local/bin"],
+            "default": "/usr/local/bin",
+            "description": "install directory"
         }
     },
     "installsAfter": [
