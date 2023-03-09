@@ -7,7 +7,7 @@ A hello world feature
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/hello:1": {
+    "ghcr.io/dasiths/vscode-features/grype:1": {
         "version": "latest"
     }
 }
@@ -17,10 +17,8 @@ A hello world feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
-
+| version | version to install | string | latest |
+| destination_dir | dir to install on | string | /usr/local/bin |
 
 
 ---
-
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
