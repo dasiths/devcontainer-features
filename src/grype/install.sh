@@ -6,4 +6,6 @@ echo "Installing Grype"
 ## adding grype
 RELEASE_VERSION=${VERSION:-"latest"}
 DESTINATION_DIR=${DESTINATION_DIR:-"/usr/local/bin"}
-sh install.sh -s -- -b $DESTINATION_DIR $RELEASE_VERSION
+chmod +x install-grype.sh
+sh install-grype.sh -s -- -b $DESTINATION_DIR $RELEASE_VERSION
+grype version
