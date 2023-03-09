@@ -7,7 +7,7 @@ Feature to install Grype. A vulnerability scanner for container images and files
 
 ```json
 "features": {
-    "ghcr.io/dasiths/vscode-features/grype:1": {
+    "ghcr.io/dasiths/devcontainer-features/grype:1": {
         "version": "latest"
     }
 }

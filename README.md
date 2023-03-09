@@ -18,7 +18,7 @@ This repository contains a _collection_ of Features.
 {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-        "ghcr.io/dasiths/vscode-features/grype:1": {
+        "ghcr.io/dasiths/devcontainer-features/grype:1": {
             "version": "latest"
         }
 }
