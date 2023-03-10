@@ -1,0 +1,23 @@
+{
+    "name": "Syft",
+    "id": "syft",
+    "version": "1.0.0",
+    "description": "Syft sbom generation feature",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": ["latest"],
+            "default": "latest",
+            "description": "release version"
+        },
+        "destination_dir": {
+            "type": "string",
+            "proposals": ["/usr/local/bin"],
+            "default": "/usr/local/bin",
+            "description": "install directory"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

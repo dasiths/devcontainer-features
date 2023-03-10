@@ -4,6 +4,9 @@
         "features": {
             "grype": {
                 "version": "latest"
+            },
+            "syft": {
+                "version": "latest"
             }
         }
     }
